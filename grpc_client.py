@@ -1,7 +1,5 @@
-from http.client import responses
-
 import grpc
-from grpc.beta.implementations import stub_options
+
 
 import user_service_pb2_grpc
 import user_service_pb2

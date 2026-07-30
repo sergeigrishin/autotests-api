@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/grpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_j.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/two_file" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_service.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_service_pb2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_service_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course_service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc_courses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/grpc_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
