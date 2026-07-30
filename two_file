@@ -1,0 +1,14 @@
+{
+  "name": "Мария",
+  "age": 25,
+  "is_student": false,
+  "courses": [
+    "ui",
+    "api"
+  ],
+  "address": {
+    "city": "Москва",
+    "street": "Ленина",
+    "house": 14
+  }
+}
