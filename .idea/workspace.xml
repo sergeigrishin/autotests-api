@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/private_user_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httpx_create_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/files/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
