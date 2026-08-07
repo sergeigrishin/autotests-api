@@ -5,11 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/courses/course_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydentic_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skipif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pytest_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/authentication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/private_user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_user_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
