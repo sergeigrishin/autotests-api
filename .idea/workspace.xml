@@ -5,46 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/api_client_get_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/course_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pydantic_create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pydantic_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pydentic_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_skipif.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_pytest_xfail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_create_exercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_get_user.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/api_client_get_user.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/course_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/delete_user_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/users/private_user_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_user_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/private_http_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/public_http_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/private_user_client.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/users_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_service_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/course_service_pb2_grpc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_course_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_course_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_create_file.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/httpx_create_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_create_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_get_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_updata_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpx_user_delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydantic_create_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydantic_example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydentic_basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testdata/files/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/httpx_get_user_me.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skipif.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_xfail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_usefixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/randon_random.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/authentication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service_pb2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_service_pb2_grpc.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +109,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.delete_user_client.executor": "Run",
+    "Python.httpx_authentication.executor": "Run",
     "Python.httpx_client.executor": "Run",
     "Python.httpx_create_user.executor": "Run",
     "Python.httpx_example.executor": "Run",
     "Python.httpx_get_user.executor": "Run",
+    "Python.httpx_get_user_me.executor": "Run",
     "Python.httpx_user_delete.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
@@ -98,7 +125,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/repository/autotests-api/testdata"
+    "last_opened_file_path": "C:/repository/autotests-api"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -106,13 +133,14 @@
       <recent name="C:\repository\autotests-api\testdata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repository\autotests-api\clients\authentication" />
       <recent name="C:\repository\autotests-api\clients" />
       <recent name="C:\repository\autotests-api\testdata\files" />
       <recent name="C:\repository\autotests-api\clients\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.httpx_client">
-    <configuration name="httpx_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.delete_user_client">
+    <configuration name="delete_user_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +153,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/delete_user_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="httpx_authentication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autotests-api" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_authentication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="httpx_get_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="httpx_get_user_me" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,29 +219,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_get_user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="httpx_user_delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotests-api" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_user_delete.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/httpx_get_user_me.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,10 +252,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.httpx_client" />
-        <item itemvalue="Python.httpx_user_delete" />
-        <item itemvalue="Python.httpx_get_user" />
+        <item itemvalue="Python.delete_user_client" />
         <item itemvalue="Python.httpx_create_user" />
+        <item itemvalue="Python.httpx_get_user_me" />
+        <item itemvalue="Python.httpx_authentication" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
