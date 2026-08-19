@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_clients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_json_schema_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testdata/files/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_clients.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/private_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +88,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/repository/autotests-api"
+    "last_opened_file_path": "C:/repository/autotests-api/testdata",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,9 +97,9 @@
       <recent name="C:\repository\autotests-api\testdata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repository\autotests-api\testdata\files" />
       <recent name="C:\repository\autotests-api\clients\authentication" />
       <recent name="C:\repository\autotests-api\clients" />
-      <recent name="C:\repository\autotests-api\testdata\files" />
       <recent name="C:\repository\autotests-api\clients\users" />
     </key>
   </component>
