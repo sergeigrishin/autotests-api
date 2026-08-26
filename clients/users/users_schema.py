@@ -20,7 +20,7 @@ class CreateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr | None = Field(default_factory=fake.email)
+    email: EmailStr | None = Field(default_factory=fake.email())
     last_name: str | None = Field(alias="lastName", default_factory=fake.last_name)
     first_name: str | None = Field(alias="firstName", default_factory=fake.first_name)
     middle_name: str | None = Field(alias="middleName", default_factory=fake.middle_name)
