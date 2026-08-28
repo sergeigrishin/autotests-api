@@ -1,4 +1,4 @@
-from clients.courses.courses_clients import get_courses_client
+from clients.courses.courses_client import get_courses_client
 from clients.courses.courses_schema import CreateCourseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema

@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70e2c6f6-a923-40ac-a95b-70af6098b967" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/files/test_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../courses/qa-automation-engineer-api-course/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_client_create_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_clients.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/private_http_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/users/users_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/users_schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_xfail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_usefixtures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/users/test_user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +95,14 @@
       <recent name="C:\repository\autotests-api\testdata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repository\autotests-api\tests\pytest" />
+      <recent name="C:\repository\autotests-api\tests\users" />
+      <recent name="C:\repository\autotests-api\tests\authentication" />
       <recent name="C:\repository\autotests-api\testdata\files" />
       <recent name="C:\repository\autotests-api\clients\authentication" />
-      <recent name="C:\repository\autotests-api\clients" />
-      <recent name="C:\repository\autotests-api\clients\users" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_fixtures.TestUserFlow">
+  <component name="RunManager" selected="Python tests.Python tests for tests.pytest.test_fixtures.TestUserFlow">
     <configuration name="delete_user_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -172,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_fixtures.TestUserFlow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.pytest.test_fixtures.TestUserFlow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,13 +202,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_fixtures.TestUserFlow&quot;" />
+      <option name="_new_target" value="&quot;tests.pytest.test_fixtures.TestUserFlow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_fixtures.TestUserFlow" />
+        <item itemvalue="Python tests.Python tests for tests.pytest.test_fixtures.TestUserFlow" />
         <item itemvalue="Python.delete_user_client" />
         <item itemvalue="Python.httpx_create_user" />
         <item itemvalue="Python.httpx_get_user_me" />

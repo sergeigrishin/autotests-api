@@ -1,5 +1,5 @@
 from tools.fakers import fake
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, EmailStr
 
 
 # Добавили суффикс Schema вместо Dict
@@ -17,7 +17,7 @@ class LoginRequestSchema(BaseModel):  # Наследуем от BaseModel вме
     """
     Описание структуры запроса на аутентификацию.
     """
-    email: str = Field(default_factory=fake.email())
+    email: EmailStr = Field(default_factory=fake.email())
     password: str = Field(default_factory=fake.password())
 
 
