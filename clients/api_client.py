@@ -13,7 +13,7 @@ class APIClient:
 
         :param client: экземпляр httpx.Client для выполнения HTTP-запросов
         """
-        self.client = client(base_url='http://localhost:8000')
+        self.client = client
 
     def get(self,
             url: URL,
