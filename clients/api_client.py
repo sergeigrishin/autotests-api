@@ -3,8 +3,6 @@ from httpx._types import RequestData, RequestFiles
 
 from typing import Any
 
-from pytest_base_url.plugin import base_url
-
 
 class APIClient:
     def __init__(self, client: Client):

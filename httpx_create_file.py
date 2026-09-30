@@ -1,8 +1,8 @@
 import httpx
-from fake_email import fake_email
+from tools.fakers import fake
 
 default_user = {
-    "email": fake_email(),
+    "email": fake.email(),
     "password": "password",
     "lastName": "string",
     "firstName": "string",

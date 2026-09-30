@@ -4,17 +4,11 @@ from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestSchema
-from fake_email import fake_email
+from tools.fakers import fake
 
 public_users_client = get_public_users_client()
 
-create_user_request = CreateUserRequestSchema(
-    email= fake_email(),
-    password="string",
-    last_name="string",
-    first_name="string",
-    middle_name="string"
-)
+create_user_request = CreateUserRequestSchema()
 create_user_response = public_users_client.create_user(create_user_request)
 
 
@@ -27,7 +21,7 @@ files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
 create_file_request = CreateFileRequestSchema(
-    filename="image.png",
+    filename="image.jpg",
     directory="courses",
     upload_file="./testdata/files/image.jpg"
 )
