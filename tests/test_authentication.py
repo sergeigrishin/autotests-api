@@ -1,5 +1,3 @@
-from clients.users.public_users_client import get_public_users_client
-from clients.authentication.authentication_client import get_authentication_client
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
 from clients.users.users_schema import CreateUserRequestSchema
 from tools.assertions.base import assert_status_code
@@ -7,23 +5,22 @@ from http import HTTPStatus
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.schema import validate_json_schema
 import pytest
+from tests.conftest import UserFixture
+from clients.authentication.authentication_client import AuthenticationClient
 
 
 @pytest.mark.authentication
 @pytest.mark.regression
-def test_login():
-    public_users_client = get_public_users_client()
-    authentication_client = get_authentication_client()
+def test_login(function_user: UserFixture,
+               authentication_client: AuthenticationClient,
+               ):
+    request = LoginRequestSchema(email=function_user.email, password=function_user.password)
 
-    create_user_request = CreateUserRequestSchema()
-    public_users_client.create_user_api(create_user_request)
+    response = authentication_client.login_api(request)
 
-    login_request = LoginRequestSchema(email=create_user_request.email, password=create_user_request.password)
+    login_response_data = LoginResponseSchema.model_validate_json(response.text)
 
-    login_response = authentication_client.login_api(login_request)
-    login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
-
-    assert_status_code(login_response.status_code, HTTPStatus.OK)
+    assert_status_code(response.status_code, HTTPStatus.OK)
     assert_login_response(login_response_data)
 
-    validate_json_schema(login_response.json(), login_response_data.model_json_schema())
+    validate_json_schema(response.json(), login_response_data.model_json_schema())
