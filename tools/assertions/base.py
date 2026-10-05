@@ -1,5 +1,7 @@
 from typing import Any
 
+from clients.users.users_schema import GetUserResponseSchema, CreateUserResponseSchema
+
 
 def assert_status_code(actual: int, expected: int):
     """
